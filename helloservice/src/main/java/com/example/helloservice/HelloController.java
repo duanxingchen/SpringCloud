@@ -10,6 +10,7 @@ public class HelloController {
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     public String index(){
         System.out.print("3333333333");
+        System.out.print("44444444");
         return  "hello world";
     }
 }
