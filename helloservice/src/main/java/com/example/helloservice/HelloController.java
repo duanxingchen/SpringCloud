@@ -13,6 +13,7 @@ public class HelloController {
     public String index() throws InterruptedException {
         System.out.print("3333333333");
         System.out.print("44444444");
+        /*产生随机时间，最大3ms*/
         int sleepTime = new Random().nextInt(3000);
         try {
             Thread.sleep(sleepTime);
