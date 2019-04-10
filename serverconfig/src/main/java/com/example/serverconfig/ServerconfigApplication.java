@@ -10,11 +10,8 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 public class ServerconfigApplication {
 
     public static void main(String[] args) {
-        String string4 =new String("dddd");
         String string =new String("dddd");
-        String string1 =new String("dddd");
-        String string2=new String("dddd");
-        String string =new String("dddd");
+
         SpringApplication.run(ServerconfigApplication.class, args);
     }
 }
