@@ -14,6 +14,7 @@ public class ServerconfigApplication {
         String string1 =new String("dddd");
         String string2=new String("dddd");
 
+        String string4 =new String("dddd");
         SpringApplication.run(ServerconfigApplication.class, args);
     }
 }
